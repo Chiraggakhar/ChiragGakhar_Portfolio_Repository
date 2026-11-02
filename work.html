@@ -1,0 +1,255 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work | Chirag Gakhar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="Script.js" defer></script>
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <a href="portfolio.html" class="logo">CHIRAG GAKHAR</a>
+        <ul class="nav-links">
+            <li><a href="portfolio.html">Home</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="demo-reel.html">Demo Reel</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<main class="work-page">
+
+    <!-- PAGE INTRODUCTION -->
+    <section class="page-intro">
+        <p class="section-eyebrow">SELECTED PROJECTS</p>
+        <h1>MY WORK</h1>
+        <p>
+            Explore my environment art, real-time scenes, and 3D game assets.
+        </p>
+    </section>
+
+
+    <!-- TWO MAIN CLICKABLE CATEGORIES -->
+    <section class="work-categories">
+
+        <a href="#environment-art" class="category-card">
+            <img
+                src="images/project-1.jpg"
+                alt="Environment art portfolio preview"
+                loading="lazy"
+            >
+            <div class="category-overlay">
+                <p>WORLDS &amp; LEVELS</p>
+                <h2>ENVIRONMENT ART</h2>
+                <span>Explore environments ↓</span>
+            </div>
+        </a>
+
+        <a href="#game-art" class="category-card">
+            <img
+                src="images/game-art.png"
+                alt="3D game asset portfolio preview"
+                loading="lazy"
+            >
+            <div class="category-overlay">
+                <p>MODELLING &amp; TEXTURING</p>
+                <h2>GAME ART</h2>
+                <span>Explore 3D assets ↓</span>
+            </div>
+        </a>
+
+    </section>
+
+
+    <!-- ENVIRONMENT ART PROJECTS -->
+    <section id="environment-art" class="portfolio-section">
+
+        <div class="section-heading">
+            <p class="section-eyebrow">01 / WORLDS &amp; LEVELS</p>
+            <h2>Environment Art</h2>
+            <p>
+                Environments, lighting, composition, and real-time worlds.
+            </p>
+        </div>
+
+        <div class="environment-grid">
+
+            <!-- ENVIRONMENT PROJECT 1 -->
+            <article class="project-card">
+                <img src="images/environment-1.png"
+                     alt="Environment art project 1"
+                     loading="lazy">
+                <div class="project-info">
+                    <p class="project-number">PROJECT 01</p>
+                    <h3>Murder at the laundromat</h3>
+                    <p>
+                        A dark, atmospheric laundromat transformed into a crime scene, featuring blood-stained washing machines, disturbing wall markings, and dramatic contrasting cyan and red lighting. Modelled and textured using Autodesk Maya and Adobe Substance 3D Painter, and brought to life in Unreal Engine 5 through environmental storytelling, cinematic lighting, and detailed material work.
+                    </p>
+                    <p class="project-tools">
+                        Unreal Engine 5 · Maya · Substance Painter
+                    </p>
+                </div>
+            </article>
+
+            <!-- ENVIRONMENT PROJECT 2 -->
+            <article class="project-card">
+                <img src="images/environment-2.png"
+                     alt="Environment art project 2"
+                     loading="lazy">
+                <div class="project-info">
+                    <p class="project-number">PROJECT 02</p>
+                    <h3>The Holy Shrine</h3>
+                    <p>
+                        A mystical shrine set within an overgrown landscape, featuring an ancient ceremonial structure surrounded by wild vegetation and a weathered stone pathway. The environment was modelled and textured using Autodesk Maya and Adobe Substance 3D Painter, then brought to life in Unreal Engine 5, with atmospheric lighting, environmental details, and cinematic composition.
+                    </p>
+                    <p class="project-tools">
+                        Unreal Engine 5 · Environment Art · Maya
+                    </p>
+                </div>
+            </article>
+
+            <!-- ENVIRONMENT PROJECT 3 -->
+            <article class="project-card">
+                <img src="images/Horror Door.png"
+                     alt="Environment art project 3"
+                     loading="lazy">
+                <div class="project-info">
+                    <p class="project-number">PROJECT 03</p>
+                    <h3>The Horror Door</h3>
+                    <p>
+                      A dark, atmospheric horror environment featuring a heavily chained and barricaded door, creating a sense of mystery, tension, and suspense. The scene focuses on detailed textures, dramatic red lighting, and cinematic composition to establish an unsettling atmosphere.
+                    </p>
+                    <p class="project-tools">
+                        Unreal Engine 5 · Level Design
+                    </p>
+                </div>
+            </article>
+
+            <!-- ENVIRONMENT PROJECT 4 -->
+            <article class="project-card">
+                <img src="images/project-1.jpg"
+                     alt="Environment art project 4"
+                     loading="lazy">
+                <div class="project-info">
+                    <p class="project-number">PROJECT 04</p>
+                    <h3>Crash Site</h3>
+                    <p>
+                      One of my most extensive environment art projects, featuring a crashed aircraft hidden within a vast desert canyon. The scene focuses on creating an immersive, believable environment through detailed rock formations, natural vegetation, environmental storytelling, and carefully crafted lighting. The abandoned aircraft and makeshift structures bring the scene to life, suggesting a story of survival and isolation.
+                    </p>
+                    <p class="project-tools">
+                        Environment Art · Lighting · Composition
+                    </p>
+                </div>
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- GAME ART AND ASSET BREAKDOWNS -->
+    <section id="game-art" class="portfolio-section game-art-section">
+
+        <div class="section-heading">
+            <p class="section-eyebrow">02 / MODELLING &amp; TEXTURING</p>
+            <h2>Game Art</h2>
+            <p>
+                A closer look at my modelling, UVs, texturing,
+                materials, and finished 3D assets.
+            </p>
+        </div>
+
+
+        <!-- ASSET 1 -->
+        <article class="asset-project">
+
+            <div class="asset-media">
+                <video controls playsinline preload="metadata"
+                       poster="images/chirag-gakhar-asset.jpg">
+                    <source src="Images/radio.mp4"
+                            type="video/mp4">
+                    Your browser does not support video playback.
+                </video>
+            </div>
+
+            <div class="asset-details">
+                <p class="project-number">ASSET 01</p>
+                <h3>The Radio</h3>
+                <p>
+                    A 3D model of a vintage-style radio, designed with a focus on clean geometry, balanced proportions, and realistic material details. The project explores the combination of aged wooden finishes, textured surfaces, and metallic controls to capture a classic retro aesthetic.
+                </p>
+
+                <h4>Breakdown</h4>
+                <ul>
+                    <li>Modelling: Autodesk Maya / 3ds Max</li>
+                    <li>Texturing: Adobe Substance 3D Painter</li>
+                    <li>UVs, wireframe, and texture maps</li>
+                </ul>
+
+                <div class="breakdown-images">
+                    <img src="images/chirag-gakhar-asset (1).jpg"
+                         alt="Asset 1 wireframe"
+                         loading="lazy">
+                    <img src="images/chirag-gakhar-asset (2).jpg"
+                         alt="Asset 1 texture maps"
+                         loading="lazy">
+                </div>
+            </div>
+
+        </article>
+
+
+        <!-- ASSET 2 -->
+        <article class="asset-project">
+
+            <div class="asset-media">
+                <video controls playsinline preload="metadata"
+                       poster="images/Render 1.jpg">
+                    <source src="Images/tbrender.mp4"
+                            type="video/mp4">
+                    Your browser does not support video playback.
+                </video>
+            </div>
+
+            <div class="asset-details">
+                <p class="project-number">ASSET 02</p>
+                <h3>Skateboard</h3>
+                <p>
+                 A 3D skateboard model showcasing a combination of realistic materials and vibrant graphic design. The project explores the individual components of a skateboard, from the wooden deck and textured grip tape to the trucks and wheels. Special attention was given to surface details, material variation, and the custom underside artwork to achieve a realistic and visually appealing finish.
+                </p>
+
+                <h4>Breakdown</h4>
+                <ul>
+                    <li>Modelling: Autodesk Maya / 3ds Max</li>
+                    <li>Texturing: Adobe Substance 3D Painter</li>
+                    <li>Show additional renders, UVs, and texture maps</li>
+                </ul>
+
+                <div class="breakdown-images">
+                    <img src="images/Render 1.jpg"
+                         alt="Asset 2 wireframe"
+                         loading="lazy">
+                    <img src="images/Render 2.jpg"
+                         alt="Asset 2 texture maps"
+                         loading="lazy">
+                </div>
+            </div>
+
+        </article>
+
+    </section>
+
+</main>
+<footer>
+    <p>© 2026 Chirag Gakhar</p>
+</footer>
+
+</body>
+</html>
